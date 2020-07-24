@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+body, html {
+    height: 100%;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Add styles to the form container */
+.container {
+    align:center;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    clear:both;
+    
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+</style>
+</head>
+<body background ="2.jpg">
+<form action ="Signup" method = "post">
+<div class="container">
+<label for="username"><b>Username</b></label>
+<input type="text" placeholder="Enter the username" name="username">
+<label for="E-mail"><b>Email-ID</b></label>
+<input type="email" placeholder="Enter E-mail-ID" name="email" required>
+<label for="mobile"><b>Mobile no.</b></label>
+<input type="tel" placeholder="Enter Mobile no" name="mobile" required>
+<label for="ID"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" required>
+<label for="ID"><b>Address</b></label>
+<input type="text" placeholder="Enter Address" name="address" required>
+<button type="submit" class="btn">Register</button>
+</div>
+</form>
+</body>
+</html>

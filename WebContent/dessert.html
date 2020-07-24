@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+.first{
+background-image: url('11.jpg');
+background-repeat: no-repeat;
+    background-size: 100%,100%;
+     background-attachment: fixed;
+    height: 100%;
+  background-position: center;
+   position: relative;
+   font-size: 50px;
+
+}
+.menu-body {
+  max-width: 680px;  
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+ 
+.menu-section {
+  margin-bottom: 80px;
+}
+ 
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  color:white;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+}
+ 
+.menu-item {
+  margin: 35px 0;
+  font-size: 35px;
+  color:#e2b74a;
+  }
+ 
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  font-style:italic;
+  font-color:white;
+  align:center;
+  border-bottom: 0.4px dotted rgb(0, 0, 0);
+  }
+ 
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+  }
+ 
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -35px;
+  font-color:white;
+}
+ .createbtn {
+     
+    background-color:#ff921e;
+    font-size:20px;	
+    color: white;
+    padding: 16px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    float:right;
+    Text-align: right;
+    }
+
+.createbox {
+ 	background-color:white;
+ 	font-size:15px;
+    color: black;
+    padding: 16px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    float:right;
+	
+}  
+
+.createbtn1 {
+     
+    background-color:#2aba3d;
+    font-size:20px;	
+    color: white;
+    padding: 16px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    float:right;}   
+
+</style>
+<body>
+<div class="first">
+<h1><font color=white>Desserts</font></h1>
+<form action = "Dessert1" method = "Post">
+<div class="menu-item">
+         <div class="menu-item-name">
+            Gulab Jamun
+         </div>
+         <div class="menu-item-price">
+            100<input type="submit" class = "createbtn" name = "dessert" value="Add Item 1">
+            <input type="text" class="createbox" name = "quantity1" min = "0">       
+         </div>
+         </div>
+<div class="menu-item">
+         <div class="menu-item-name">
+            Rabri
+         </div>
+         <div class="menu-item-price">
+            120<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 2">
+             <input type="number" class="createbox" name = "quantity2" min = "0">
+         </div>
+         </div>  
+<div class="menu-item">
+         <div class="menu-item-name">
+            Gajar Halwa
+         </div>
+         <div class="menu-item-price">
+            150<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 3">
+             <input type="number" class="createbox" name = "quantity3" min = "0">
+         </div>
+         </div>
+         <div class="menu-item">
+         <div class="menu-item-name">
+        Kulfi    
+                 </div>
+         <div class="menu-item-price">
+            20<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 4">
+            <input type="number" class="createbox" name = "quantity4" min = "0">
+         </div>
+         </div>
+         <div class="menu-item">
+         <div class="menu-item-name">
+            Rabri Faluda
+         </div>
+         <div class="menu-item-price">
+            150<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 5">
+             <input type="number" class="createbox" name = "quantity5" min = "0">
+         </div>
+         </div>
+         <div class="menu-item">
+         <div class="menu-item-name">
+           Rajbhog
+         </div>
+         <div class="menu-item-price">
+            40<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 6">
+          	<input type="number" class="createbox" name = "quantity6" min = "0">
+         </div>
+         </div>                
+         <div class="menu-item">
+         <div class="menu-item-name">
+            Rasmalai
+         </div>
+         <div class="menu-item-price">
+            60<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 7">
+             <input type="number" class="createbox" name = "quantity7" min = "0">
+         </div>
+         </div>
+         <div class="menu-item">
+         <div class="menu-item-name">
+            Moong Dal halwa
+         </div>
+         <div class="menu-item-price">
+            140<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 8">
+             <input type="number" class="createbox" name = "quantity8" min = "0">
+         </div>
+         </div>
+         <div class="menu-item">
+         <div class="menu-item-name">
+            Suji Halwa
+         </div>
+         <div class="menu-item-price">
+            120<input type="submit" class = "createbtn" name = "dessert"  value="Add Item 9">
+ 			 <input type="number" class="createbox" name = "quantity9" min = "0">      
+         </div>
+         </div>
+		<a href = "bill1.html"><input type="button" name = "cart" class="createbtn1" value="View Cart"></a>
+		 <a href = "homepage.html"><input type = "button" class = "createbtn1" value = "Back to Home"></a>
+</form>
+</div>
+</body>
+</html>
